@@ -276,10 +276,14 @@ const RegistrationSection = () => {
                                 Upcoming Events:
                             </p>
                             <div className="flex justify-center">
-                                <div className="flex items-center gap-2 text-sm text-foreground bg-background/50 p-4 rounded-xl border border-border/50 text-center w-full justify-center font-medium animate-pulse">
-                                    <Loader2 className="w-4 h-4 text-primary animate-spin" />
-                                    Loading National Yoga Competition...
-                                </div>
+                                <a 
+                                    href="https://form.svhrt.com/6a5a4f927722210ae3f998bd"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-2 text-sm text-primary bg-primary/10 hover:bg-primary/20 p-4 rounded-xl border border-primary/20 text-center w-full justify-center font-bold transition-colors"
+                                >
+                                    National Yoga Competition Registration Form
+                                </a>
                             </div>
                         </div>
                     </motion.div>
